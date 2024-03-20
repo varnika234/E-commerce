@@ -1,6 +1,6 @@
 let ul=document.querySelector("ul");
 let visible=document.querySelector(".visible");
-let burger=document.querySelector(".burger");
-burger.addEventListener('click',()=>{
+let b=document.querySelector(".burger");
+b.addEventListener('click',()=>{
     ul.classList.toggle('visible');
 })
